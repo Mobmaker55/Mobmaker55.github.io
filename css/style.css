@@ -1,5 +1,7 @@
 h1 {
-    font-size: 20%;
-    font-family: "Droid Sans", SansSerif;
+    font-size: 50px;
+    font-family: "Droid Sans", sans-serif;
     color: aqua;
+    float: center;
+    padding-top: 5%;
 }
