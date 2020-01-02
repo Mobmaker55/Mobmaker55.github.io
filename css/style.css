@@ -3,5 +3,6 @@ h1 {
     font-family: "Droid Sans", sans-serif;
     color: aqua;
     align-self: center;
+    alignment: center;
     padding-top: 2%;
 }
