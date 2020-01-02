@@ -1,7 +1,7 @@
 h1 {
-    font-size: 50px;
+    font-size: 40px;
     font-family: "Droid Sans", sans-serif;
     color: aqua;
-    float: center;
-    padding-top: 5%;
+    align-self: center;
+    padding-top: 2%;
 }
