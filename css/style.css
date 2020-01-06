@@ -13,8 +13,8 @@ h1 {
     padding-top: 2%;
 }
 .topnav {
+    padding: 10px;
     float: left;
-    padding-left: 0px;
     position: fixed;
     top: 0px;
     background-color: grey;
@@ -24,13 +24,15 @@ h1 {
     letter-spacing: 1px;
     font-family: 'Bitter', serif;
     font-size: 16px;
+    min-height: 24px;
 }
 .topnavbutton {
-    padding: 10px;
     color: white;
     border: none;
     display: block;
     text-decoration: none;
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 100%;
+    text-align: center;
+
 }
