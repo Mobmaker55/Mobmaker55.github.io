@@ -34,7 +34,7 @@ h1 {
     width: 60px;
     height: 100%;
     text-align: center;
-
+    transition: 0.5ms;
 }
 .topnavbutton:hover {
     background-color: white;
