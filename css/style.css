@@ -36,3 +36,7 @@ h1 {
     text-align: center;
 
 }
+.topnavbutton:active {
+    background-color: white;
+    color: black
+}
