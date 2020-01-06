@@ -36,7 +36,7 @@ h1 {
     text-align: center;
 
 }
-.topnavbutton:active {
+.topnavbutton:hover {
     background-color: white;
     color: black
 }
