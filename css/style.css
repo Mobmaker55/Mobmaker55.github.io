@@ -45,9 +45,5 @@ h1 {
 .tnbtt {
    text-decoration: none;
    display: inline-block;
-   color: white;
-   transition: 0.4s;
-}
-a:hover.tnbtt {
-    color: black;
+   color: inherit;
 }
