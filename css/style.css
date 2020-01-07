@@ -13,7 +13,6 @@ h1 {
     padding-top: 2%;
 }
 .topnav {
-    padding: 10px;
     float: left;
     position: fixed;
     top: 0px;
@@ -23,20 +22,23 @@ h1 {
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
     letter-spacing: 1px;
     font-family: 'Bitter', serif;
-    font-size: 16px;
-    min-height: 24px;
+    font-size: 18px;
+    min-height: 44px;
 }
-.topnavbutton {
+.topnavbt {
+    position: absolute;
     color: white;
     border: none;
-    display: block;
-    text-decoration: none;
     width: 60px;
     height: 100%;
     text-align: center;
-    transition: 0.5ms;
+    transition: 0.4s;
 }
-.topnavbutton:hover {
+.topnavbt:hover {
     background-color: white;
-    color: black
+    color: black;
+}
+.tnbtt {
+   text-decoration: none;
+   vertical-align: center;
 }
