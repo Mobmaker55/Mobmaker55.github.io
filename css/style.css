@@ -24,15 +24,19 @@ h1 {
     font-family: 'Bitter', serif;
     font-size: 18px;
     min-height: 44px;
+    display: table;
 }
 .topnavbt {
     position: absolute;
     color: white;
     border: none;
-    width: 60px;
+    width: 80px;
     height: 100%;
     text-align: center;
     transition: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .topnavbt:hover {
     background-color: white;
@@ -40,5 +44,10 @@ h1 {
 }
 .tnbtt {
    text-decoration: none;
-   vertical-align: center;
+   display: inline-block;
+   color: white;
+   transition: 0.4s;
+}
+a:hover.tnbtt {
+    color: black;
 }
