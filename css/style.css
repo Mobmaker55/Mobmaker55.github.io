@@ -1,16 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 
 body {
     letter-spacing: 1px;
-    line-height: 1.5;
+    line-height: 1;
     margin: 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 h1 {
-    font-size: 40px;
-    font-family: "Droid Sans", sans-serif;
-    color: grey;
+    font-size: 80px;
+    font-family: 'Lato', sans-serif;
+    color: #332e2c;
     text-align: center;
     padding-top: 2%;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+h2 {
+    text-align: center;
 }
 .topnav {
     display: inline-flex;
@@ -26,16 +38,18 @@ h1 {
     font-weight: bold;
     font-size: 18px;
     min-height: 44px;
+
 }
 .topnavbt {
     color: white;
     border: none;
-    width: 80px;
     text-align: center;
     transition: 0.4s;
     align-items: center;
     justify-content: center;
     display: flex;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 .topnavbt:hover {
     background-color: white;
@@ -48,4 +62,8 @@ h1 {
 }
 .tnbtt:active {
     color: green;
+}
+.pageheader {
+    padding-top: 2%;
+    line-height: 0.5;
 }
