@@ -1,0 +1,44 @@
+.sidenav {
+    height: 100%;
+    width: 180px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    box-shadow: 6px 6px 8px #1a1a1a;
+}
+.main {
+    margin-left: 180px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+    background-color: #262626;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 23px;
+    color: #818181;
+    display: block;
+}
+.sidenav hr {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #d9d9d9;
+}
+div#openingAct {
+    display: block;
+}
+div#oneWord {
+    display: block;
+}
+div#swimwear {
+    display: block;
+}
+div#top10 {
+    display: block;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>MOTY Control Panel</title>
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/moty.css" rel="stylesheet">
+    </head>
+    <!-- eventually, add: onload="load()" -->
+    <body >
+       <!-- <script>
+            function load() {
+                var acts = ["openingAct", "One Word", "Swimwear", "Top 10"]
+                for (x in acts) {
+                    var y = document.getElementById('openingAct');
+                    y.style.display = 'block';
+                }
+            }
+            function openAct(act) {
+                var acts = ["openingAct", "One Word", "Swimwear", "Top 10"]
+                aLen = acts.length;
+                for (i = 0; i < aLen; i++) {
+                    var y = document.getElementById(acts[0]);
+                    document.getElementById('yo').innerHTML = y;
+                    if (y == act) {
+                       y.style.display = 'block';
+                    }
+                }
+            }
+        </script> -->
+        <div class="sidenav">
+            <a onclick="openAct('openingAct')">Opening Act</a>
+            <hr>
+            <a onclick="openAct('oneWord')">One Word</a>
+            <hr>
+            <a href="#">Swimwear</a>
+            <hr>
+            <a href="#">Top 10</a>
+            <hr>
+        </div>
+        <div class="main">
+            <div id="openingAct">
+                <h1 id="yo">Opening Act</h1>
+            </div>
+            <div id="oneWord">
+                <h1>One Word</h1>
+            </div>
+            <div id="swimwear">
+                <h1>Swimwear</h1>
+            </div>
+            <div id="top10">
+                <h1>Top 10</h1>
+            </div>
+        </div>
+    </body>
+</html>
