@@ -6,49 +6,93 @@
         <link href="css/style.css" rel="stylesheet">
         <link href="css/moty.css" rel="stylesheet">
     </head>
-    <!-- eventually, add: onload="load()" -->
-    <body >
-       <!-- <script>
-            function load() {
-                var acts = ["openingAct", "One Word", "Swimwear", "Top 10"]
-                for (x in acts) {
-                    var y = document.getElementById('openingAct');
-                    y.style.display = 'block';
-                }
+    <script>
+        function load() {
+            
+        }
+
+        /* function openAct(act) {
+            var x = document.getElementById(act);
+            x.style.display = 'block';
+        } */
+        function openAct(act) {
+            var acts = new Array("openingact", "oneword", "swimwear", "talkshow", "darkrap", "treasure", "spriterap", "quizcheer", "dance", "metropark", "top10");
+            var aLen = acts.length;
+            for (i = 0; i < aLen; i++) {
+                var x = document.getElementById(acts[i]);
+                x.style.display = 'none';
             }
-            function openAct(act) {
-                var acts = ["openingAct", "One Word", "Swimwear", "Top 10"]
-                aLen = acts.length;
-                for (i = 0; i < aLen; i++) {
-                    var y = document.getElementById(acts[0]);
-                    document.getElementById('yo').innerHTML = y;
-                    if (y == act) {
-                       y.style.display = 'block';
-                    }
-                }
-            }
-        </script> -->
+            var x = document.getElementById(act);
+            x.style.display = 'block';  
+        }
+    </script> 
+    <body onload="load()">
         <div class="sidenav">
-            <a onclick="openAct('openingAct')">Opening Act</a>
+            <a onclick="openAct('openingact')">Opening Act</a>
             <hr>
-            <a onclick="openAct('oneWord')">One Word</a>
+            <a onclick="openAct('oneword')">One Word</a>
             <hr>
-            <a href="#">Swimwear</a>
+            <a onclick="openAct('swimwear')">Swimwear</a>
+            <hr id="oh">
+            <a id="center"><b>TALENTS</b></a>
+            <hr id="oh">
+            <a onclick="openAct('talkshow')">Clark/Jackson</a>
             <hr>
-            <a href="#">Top 10</a>
+            <a onclick="openAct('darkrap')">Holden</a>
             <hr>
+            <a onclick="openAct('treasure')">Richard</a>
+            <hr>
+            <a onclick="openAct('spriterap')">Trenton</a>
+            <hr>
+            <a onclick="openAct('quizcheer')">Cole / Josh</a>
+            <hr>
+            <a onclick="openAct('dance')">Jason / Jackie</a>
+            <hr>
+            <a onclick="openAct('metropark')">Max</a>
+            <hr>
+            <a onclick="openAct('top10')">Top 10</a>
+            <hr>
+
         </div>
         <div class="main">
-            <div id="openingAct">
+            <div class="actdiv" id="openingact">
                 <h1 id="yo">Opening Act</h1>
             </div>
-            <div id="oneWord">
+            <div class="actdiv" id="oneword">
                 <h1>One Word</h1>
             </div>
-            <div id="swimwear">
+            <div class="actdiv" id="swimwear">
                 <h1>Swimwear</h1>
             </div>
-            <div id="top10">
+            <div class="actdiv" id="talkshow">
+                <h1>Clark & Jackson</h1>
+                <h2>Talk Show</h2>
+            </div>
+            <div class="actdiv" id="darkrap">
+                <h1>Holden</h1>
+                <h2>Rap</h2>
+            </div>
+            <div class="actdiv" id="treasure">
+                <h1>Richard</h1>
+                <h2>"Treasure - Bruno Mars"</h2>
+            </div>
+            <div class="actdiv" id="spriterap">
+                <h1>Trenton</h1>
+                <h2>Rap</h2>
+            </div>
+            <div class="actdiv" id="quizcheer">
+                <h1>Cole & Josh</h1>
+                <h2>Quiz Bowl Cheerleading</h2>
+            </div>
+            <div class="actdiv" id="dance">
+                <h1>Jason & Jackie</h1>
+                <h2>Dance</h2>
+            </div>
+            <div class="actdiv" id="metropark">
+                <h1>Max</h1>
+                <h2>Metro Parks Officer</h2>
+            </div>
+            <div class="actdiv" id="top10">
                 <h1>Top 10</h1>
             </div>
         </div>

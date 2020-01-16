@@ -1,3 +1,14 @@
+body {
+    line-height: 0.5;
+}
+h1 {
+    color: #99a099;
+    font-size:70px;
+}
+h2 {
+    font-size: 30px;
+    color: #99a099;
+}
 .sidenav {
     height: 100%;
     width: 180px;
@@ -9,6 +20,7 @@
     overflow-x: hidden;
     padding-top: 20px;
     box-shadow: 6px 6px 8px #1a1a1a;
+    line-height: 0.8;
 }
 .main {
     margin-left: 180px; /* Same as the width of the sidebar */
@@ -25,20 +37,19 @@
     color: #818181;
     display: block;
 }
+.sidenav a#center {
+    text-align: center;
+    padding-left: 5px;
+}
 .sidenav hr {
     margin-left: 10px;
     margin-right: 10px;
     border: 1px solid #d9d9d9;
 }
-div#openingAct {
-    display: block;
+.sidenav hr#oh {
+    border: 2px solid #668cff;
 }
-div#oneWord {
-    display: block;
-}
-div#swimwear {
-    display: block;
-}
-div#top10 {
-    display: block;
+.actdiv {
+    display: none;
+    transition-duration: 4ms;
 }
