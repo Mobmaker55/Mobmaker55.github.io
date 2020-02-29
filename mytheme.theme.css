@@ -1,0 +1,255 @@
+//META{"name":"Mob's Theme","description":"Mobmaker's theme","author":"Mobmaker","version":"1.8"}*//
+:root{
+	--background: url("https://www.itl.cat/pngfile/big/7-75338_abstract-minimalist-minimalist-wallpaper-red.png"); /*Your BG*/
+    --background-black-opacity: .2; /*Here you can set how dark you want for your background. No image editing*/
+    --background-opacity: .8; /*Opacity of your background. Set to 1 if you don't use transparency BD feature*/
+}
+div[class*="chatContent"] > div[class*="messagesWrapper"] div[class*="divider-"] {
+	margin: 0px 20px!important;
+}
+.buttons-cl5qTG {
+    visibility: hidden !important;
+}
+.appMount-3lHmkl::before{
+    content: "";
+    z-index: -2;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    background: var(--background);
+    background-size: cover;
+    background-position: center;
+    opacity: var(--background-opacity);
+}
+.appMount-3lHmkl::after{
+    content: "";
+    z-index: -1;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    background: #000;
+    background-size: cover;
+    background-position: center;
+    opacity: var(--background-black-opacity);
+}
+.theme-dark {
+    --background-tertiary: transparent;
+    --background-primary: transparent;
+	--background-secondary: transparent;
+	--background-secondary-alt: transparent;
+	--background-floating: transparent;
+	--background-mentioned: rgba(250,166,26,0.3);
+	--elevation-high: 0 10px 16px rgba(0,0,0,0.44);
+}
+.mention:hover {
+	background-color: transparent;
+}
+.autocomplete-1vrmpx {
+	background-color: rgba(0,0,0,0.6)!important;
+}
+.selectorSelected-1_M1WV {
+	background-color: #36393f8f!important;
+} 
+.sidebar-2K8pFh{
+	background-color: rgba(0,0,0,0.3)!important;
+}
+.members-1998pB {
+	background-color: rgba(0,0,0,0.3)!important;
+}
+.bodyInner-245q0L {
+	background-color: rgba(20,20,20,0.6)!important;
+}
+.messages-3amgkR::-webkit-scrollbar-thumb {
+	background-color: rgba(0,0,0,1)!important;
+}
+.messages-3amgkR::-webkit-scrollbar-track {
+	background-color: transparent!important;
+}
+.messages-3amgkR::-webkit-scrollbar {
+	background: transparent;
+	width: 16px;
+}
+.messages-3amgkR::-webkit-scrollbar-track-piece {
+	background: transparent!important;
+	border: transparent!important;
+}
+.attachment-33OFj0 {
+	background-color: rgba(50,50,50,0.45)!important;
+}
+.scrollableContainer-2NUZem {
+	background-color: rgba(255,255,255,0.05);
+}
+.container-1giJp5 {
+	background-color: rgba(0,0,0,0.1)!important;
+}
+.container-3baos1 {
+	background-color: rgba(0,0,0,0.1)!important;
+}
+.headerPlaying-j0WQBV {
+	background-color: rgba(0,0,0,0.6)!important;
+}
+.headerNormal-T_seeN {
+	background-color: rgba(0,0,0,0.6)!important;
+}
+.headerSpotify-zpWxgT {
+	background-color: rgba(29,185,84,0.6)!important;
+}
+.footer-1fjuF6 {
+	background-color: rgba(47,49,54,0.3)!important;
+}
+.streamPreviewWrapper-2DSWOK {
+	background-color: rgba(47,49,54,0.5)!important;
+}
+.scrollbarGhostHairline-1mSOM1 {
+	background-color: rgba(47,49,54,0.45)!important;
+}
+.embedFull-2tM8-- {
+    border-radius: 10px;
+    border-left: none;
+    border-top: 20px solid gray;
+    background: rgba(39,40,44,0.5);
+    box-shadow: 0 0 30px 1px #000;
+}
+ .embedProvider-3k5pfl{
+    position: absolute;
+    top:-25px;
+    left:8px;
+    color: #fff;
+	font-size: 14px;
+}
+.embedProvider-3k5pfl a{
+    color: #fff !important;
+}
+code.inline {
+	background-color: rgba(47,49,54,0.5)!important
+}
+.root-SR8cQa {
+	background-color: #2f313694;
+}
+.contextMenu-HLZMGh {
+	background-color: rgba(47,49,54,0.7)!important;
+}
+.video-1FfuMD {
+	background-color: rgba(24,25,28,0)!important;
+}
+.wrapper-29NfPK {
+	background-color: rgba(0,0,0,0.3)!important;
+}
+.container-1D34oG {
+	background-color: rgba(0,0,0,0.1)!important;
+}
+.nowPlayingScroller-2XrVUt {
+	background-color: rgba(0,0,0,0.3)!important;
+}
+.systemPad-3UxEGl::-webkit-scrollbar-thumb {
+	background-color: rgba(0,0,0,1)!important;
+}
+.systemPad-3UxEGl::-webkit-scrollbar-track {
+	background-color: transparent!important;
+}
+.systemPad-3UxEGl::-webkit-scrollbar {
+	background: transparent;
+	width: 16px;
+}
+.systemPad-3UxEGl::-webkit-scrollbar-track-piece {
+	background: transparent!important;
+	border: transparent!important;
+}
+.applicationStore-1pNvnv {
+	background-color: rgba(0,0,0,0.1)!important;
+}
+.headerBar-1YYOfi {
+	background-color: rgba(0,0,0,0.2)!important;
+}
+div[class*="cozyMessage"][class*="groupStart"] {
+	margin-top: 35px!important;
+}
+.container-1r6BKw.themed-ANHk51 {
+	background-color: rgba(0,0,0,0.3)!important;
+}
+.theme-dark .modal-yWgWj- {
+	background-color: rgba(0,0,0,0.1)!important;
+}
+.theme-dark .tiles-2aXG_k {
+	background-color: rgba(0,0,0,0.4)!important;
+}
+.theme-dark .footer-3rDWdC {
+	background-color: rgba(0,0,0,0.4)!important;
+}
+.selectorButtonSelected-1j4DmC {
+	background-color: rgb(15,124,82)!important;
+}
+.incomingCallInner-2VmFiR {
+	background-color: rgba(0,0,0,0.4)!important;
+}
+div[class*="cozyMessage"][class*="groupStart"] {
+	margin-top: 35px!important;
+}
+.menu-Sp6bN1 {
+	background-color: rgba(47,49,54,0.8)!important;
+}
+.section-2gLsgF {
+	background-color: rgba(47,49,54,0.4)!important;
+}
+.theme-dark .inset-3sAvek {
+	background-color: transparent;
+}
+.searchResultsWrap-2DKFzt {
+	background-color: rgba(0,0,0,0.3)!important;
+}
+.input-2VB9rf {
+	background-color: rgba(47,49,54,0.5)!important;
+}
+.theme-dark .card-FDVird:before {
+	background-color: rgba(0,0,0,0.3)!important;
+}
+.css-181m2lf-menu {
+	background-color: rgba(0,0,0,0.75)!important;
+}
+.theme-dark .message-2qRu38 {
+	background-color: rgba(47,49,54,0.5)!important;
+}
+div[class*="chatContent"] > div[class*="messagesWrapper"] div[class*="backgroundFlash"] > div[class*="message"] {
+	transition: none!important;
+}
+.theme-dark .uploadModal-2ifh8j {
+	background-color: rgba(0,0,0,0.4)!important;
+}
+.theme-dark .footer-3mqk7D {
+	background-color: rgba(0,0,0,0.4)!important;
+}
+.theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
+	background-color: rgba(0,0,0,0.4)!important;
+}
+#bda-qem button {
+	background-color: rgba(47,49,54,0.5)!important;
+}
+#bda-qem {
+	background-color: rgba(0,0,0,0.5)!important;
+}
+.emojiPicker-3m1S-j {
+	background-color: rgba(47,49,54,0.8)!important;
+}
+#bda-qem-twitch-container, #bda-qem-favourite-container {
+	background-color: rgba(47,49,54,0.8)!important;
+}
+.messageGroupWrapper-o-Zw7G .messageGroupCozy-2iY6cT {
+	box-shadow: 0 0 30px 1px #000;
+	border: 2px solid #000;
+	border-radius: 6px;
+	background-color: rgba(47,49,54,0.2)!important;
+}
+.bd-modal-wrapper .bd-modal-body {
+	background-color: rgba(0,0,0,0.3)!important;
+}
+.bd-modal-wrapper .footer {
+	background-color: rgba(53,57,62,0.35)!important;
+	border-top: 1px solid #000;
+}
+.bd-modal-wrapper .header {
+	background-color: rgba(53,57,62,0.7)!important;
+}
